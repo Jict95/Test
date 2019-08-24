@@ -202,7 +202,7 @@ void main(void)
         }
 
         //
-        //disable all ADCINT flags to stop sampling
+        //disable all AD  CINT flags to stop sampling
         //
         AdcaRegs.ADCINTSEL1N2.bit.INT1E = 0;
         AdcaRegs.ADCINTSEL1N2.bit.INT2E = 0;
